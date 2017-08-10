@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmSWGrpName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSWGrpName.Designer.cs">
+      <DependentUpon>frmSWGrpName.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainView\frmEdit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,12 @@
     <Compile Include="SettingsView\frmSplashScreen.designer.cs">
       <DependentUpon>frmSplashScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="SettingsView\frmSWImportDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsView\frmSWImportDesign.Designer.cs">
+      <DependentUpon>frmSWImportDesign.cs</DependentUpon>
+    </Compile>
     <Compile Include="SettingsView\frmSWIntro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +107,9 @@
     <Compile Include="SettingsView\frmWelcome.designer.cs">
       <DependentUpon>frmWelcome.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmSWGrpName.resx">
+      <DependentUpon>frmSWGrpName.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainView\frmEdit.resx">
       <DependentUpon>frmEdit.cs</DependentUpon>
     </EmbeddedResource>
@@ -121,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SettingsView\frmSplashScreen.resx">
       <DependentUpon>frmSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsView\frmSWImportDesign.resx">
+      <DependentUpon>frmSWImportDesign.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SettingsView\frmSWIntro.resx">
       <DependentUpon>frmSWIntro.cs</DependentUpon>
